@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description"
+    content="Fonda Ucenin Diciochero: música, cueca y sabores chilenos en la Universidad Católica del Norte.">
+
+  <title>Fonda Ucenin Diciochero</title>
+
+  <!-- Bootstrap -->
+
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous">
+
+  <!-- Estilos -->
+
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      padding-top: 72px;
+    }
+
+    .portada {
+      min-height: calc(100vh - 72px);
+
+      background:
+        radial-gradient(
+          circle at 85% 20%,
+          rgba(255, 255, 255, 0.14),
+          transparent 28%
+        ),
+        linear-gradient(
+          135deg,
+          #071d49 0%,
+          #0b376c 52%,
+          #b51d2a 100%
+        );
+    }
+
+    .imagen-portada {
+      width: 100%;
+      max-width: 680px;
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .logo-marca {
+      width: 42px;
+      height: 42px;
+      object-fit: contain;
+    }
+
+    /* Ajustes Tamaño celulares */
+    
+    @media (max-width: 575.98px) {
+      body {
+        padding-top: 112px;
+      }
+
+      .portada {
+        min-height: calc(100vh - 112px);
+      }
+    }
+  </style>
+</head>
